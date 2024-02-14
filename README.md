@@ -1,38 +1,27 @@
-# Welcome to Remix!
+# Remix App
 
-- [Remix Docs](https://remix.run/docs)
+## Overview
 
-## Development
+This is a very simple blog web application built using Remix.
 
-From your terminal:
+## Getting Started
 
-```sh
+To get started:
+
+1. **Installation**: Clone the repository and go into the project directory:
+
+
+   git clone https://github.com/larsswenson/your-remix-app
+   cd your-remix-app
+
+2. **Install Dependencies**:
+
+npm install
+
+3. **Start the Server**: Start the Remix development server to run your app locally:
+
 npm run dev
-```
 
-This starts your app in development mode, rebuilding assets on file changes.
+You can access it at http://localhost:3000.
 
-## Deployment
 
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
